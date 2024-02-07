@@ -2,7 +2,8 @@ import argparse
 import json
 from os.path import join
 from zipfile import ZipFile
-from task_stat import print_submission_stat
+
+from task_statistics_json import print_submission_stat
 from utils import DATA_DIR
 
 

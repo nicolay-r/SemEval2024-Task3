@@ -55,16 +55,6 @@ def iter_pairs(json_data, max_dist=None, return_annotation=False, self_distant_r
                 yield [cid, conversation, utt_src, utt_tgt] + ([annotation] if annotation is not None else [])
 
 
-def save_json_conversations(json_filepath, data):
-    print(f"Saved: {json_filepath}")
-    with open(json_filepath, "w") as f:
-        json.dump(data, fp=f, ensure_ascii=False, indent=4)
-
-
-def conversation_speakers(conversation):
-    return set([u["speaker"] for u in conversation])
-
-
 def extract_conversation_context(conversation, utt, window, ust_prefix):
     assert(isinstance(conversation, list))
     assert(isinstance(utt, dict))

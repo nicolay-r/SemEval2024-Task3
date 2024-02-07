@@ -22,7 +22,7 @@ def iter_content(conversations):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description="Infer Instruct LLM inference")
-    parser.add_argument('--src', dest='src', type=str, default=join(utils.DATA_DIR, "Subtask_1_pred_final.json"))
+    parser.add_argument('--src', dest='src', type=str, default=utils.TRAIN_SRC)
     parser.add_argument('--out', dest='out', type=str, default="out.txt")
     args = parser.parse_args()
 
