@@ -1,11 +1,14 @@
-# SemEval-2024 Task 3: Codalab Service for THOR-ECAC
+# SemEval-2024 Task 3: Codalab Service for [THOR-ECAC](https://github.com/nicolay-r/THOR-ECAC) framework
 
 ### 📊 [Codalab Competiton Page](https://codalab.lisn.upsaclay.fr/competitions/16141)
+### 🤖 [THOR-ECAC code implementation](https://github.com/nicolay-r/THOR-ECAC)
+
+## Description
 
 This repository shares data and submission-related code for training and handling results of  
 [THoR-ECAC framework](https://github.com/nicolay-r/THOR-ECAC).
 
-This project contributes with the following features.
+This project contributes with the following scripts:
 * **Resources Preparation for `pair-based` experiments in context**:
   * [0_emotion_state.py](e3_pair_ft/0_emotion_state.py) -- script for pretraining data preparation, based on `states`;
   * [0_emotion_cause.py](e3_pair_ft/0_emotion_cause.py) -- script for fine-tuning data preparation, based on `causes`;
