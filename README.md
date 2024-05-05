@@ -1,11 +1,18 @@
 # SemEval-2024 Task 3: Codalab Service for [THOR-ECAC](https://github.com/nicolay-r/THOR-ECAC)
+![](https://img.shields.io/badge/Python-3.8-lightgreen.svg)
 [![arXiv](https://img.shields.io/badge/arXiv-2404.03361-b31b1b.svg)](https://arxiv.org/abs/2404.03361)
+[[Task description]](https://nustm.github.io/SemEval-2024_ECAC/)
 
 This repository shares data and submission-related code for training and handling results of  
 [THoR-ECAC framework](https://github.com/nicolay-r/THOR-ECAC), as a part of the SemEval-2024 
 paper **[nicolay-r at SemEval-2024 Task 3: Using Flan-T5 for Reasoning Emotion Cause in Conversations with Chain-of-Thought on Emotion States](https://arxiv.org/abs/2404.03361)**
 
-This project contributes with the following scripts:
+### [👉THoR-ECAC framework👈](https://github.com/nicolay-r/THOR-ECAC) 
+
+
+# Usage
+
+This project shares the following scripts:
 * **Resources Preparation for `pair-based` experiments in context**:
   * [0_emotion_state.py](e3_pair_ft/0_emotion_state.py) -- script for pretraining data preparation, based on `states`;
   * [0_emotion_cause.py](e3_pair_ft/0_emotion_cause.py) -- script for fine-tuning data preparation, based on `causes`;
