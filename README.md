@@ -17,7 +17,12 @@ paper **[nicolay-r at SemEval-2024 Task 3: Using Flan-T5 for Reasoning Emotion C
 pip install -r dependencies.txt
 ```
 
-2. Use the following shared scripts:
+2. Use [**download.py**](download.py) scripts for fetching ⬇️ all the task-related resources:
+```bash
+python download.py
+```
+
+3. Use the following shared scripts:
 * **Resources Preparation for `pair-based` experiments in context**:
   * [0_emotion_state.py](e3_pair_ft/0_emotion_state.py) -- script for pretraining data preparation, based on `states`;
   * [0_emotion_cause.py](e3_pair_ft/0_emotion_cause.py) -- script for fine-tuning data preparation, based on `causes`;
