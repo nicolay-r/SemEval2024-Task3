@@ -27,7 +27,7 @@ This project shares the following scripts:
   * [task_statistics_json.py](task_statistics_json.py) -- `json` data analyzer;
   * [task_statistics_submission.py](task_statistics_submission.py) -- `*json.zip` submissions analyzer.
   
-## References
+# References
 You can cite this work or [THoR-ECAC framework](https://github.com/nicolay-r/THOR-ECAC) as follows:
 ```bibtex
 @article{rusnachenko2024nicolayr,
