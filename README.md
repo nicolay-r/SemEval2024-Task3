@@ -1,6 +1,6 @@
 # SemEval-2024 Task 3: Codalab Service for [THOR-ECAC](https://github.com/nicolay-r/THOR-ECAC) • [![twitter](https://img.shields.io/twitter/url/https/shields.io.svg?style=social)](https://twitter.com/nicolayr_/status/1777005686611751415)
 
-![](https://img.shields.io/badge/Python-3.8-lightgreen.svg)
+![](https://img.shields.io/badge/Python-3.10-lightgreen.svg)
 [![arXiv](https://img.shields.io/badge/arXiv-2404.03361-b31b1b.svg)](https://arxiv.org/abs/2404.03361)
 [![arXiv](https://img.shields.io/badge/github-task_description-ffffff.svg)](https://nustm.github.io/SemEval-2024_ECAC/)
 
